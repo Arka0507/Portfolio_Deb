@@ -199,7 +199,7 @@ export default function ProjectsSection() {
             </h2>
           </div>
           <p className="font-mono text-xs sm:text-sm text-secondary max-w-md">
-            Engineered systems covering privacy-preserving federated AI, recommendation engines, clinical operational intelligence, and comprehensive IPL sports analytics.
+            Engineered systems covering privacy-preserving federated AI, movie recommendation engines, real-time traffic computer vision, and comprehensive IPL sports analytics.
           </p>
         </div>
 

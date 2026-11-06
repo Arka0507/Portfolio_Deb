@@ -39,7 +39,7 @@ Built with **Next.js 14**, **React**, **TypeScript**, **Tailwind CSS**, **Framer
 5. **Flagship Projects (`ProjectsSection.tsx`)**: 3D cursor-tilt project cards with blueprint inspection modal:
    - *Federated AI Healthcare System* (BioBERT, FedAvg, PyTorch)
    - *CineVerse – Movie Recommendation Engine* (FastAPI, MovieLens 100K)
-   - *Hospital Emergency Room Dashboard* (Excel, Operational Analytics)
+   - *TrafficVision AI* (YOLO, OpenCV, PyTorch, Multi-Object Tracking)
    - *IPL Match Analytics & Performance Dashboard* (Excel, Python, Pandas, Sports Analytics)
 6. **Systems Matrix (`SkillsMatrixSection.tsx`)**: 6-layer capability matrix filterable by proficiency tier (*Project Experience*, *Working Knowledge*, *Familiar*).
 7. **Education & Certifications (`EducationSection.tsx`)**: Amity University B.Tech CSE (8.5 CGPA), NPTEL Cloud Computing, NPTEL Python for Data Science.
