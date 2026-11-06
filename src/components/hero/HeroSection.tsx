@@ -156,8 +156,8 @@ export default function HeroSection() {
               </button>
 
               <a
-                href={PERSONAL_INFO.socials.resume}
-                download="Arka_Deb_Resume.pdf"
+                href="/resume.pdf"
+                download="Arkadeb_Das_Resume.pdf"
                 onMouseEnter={() => sound.playHover()}
                 onClick={() => sound.playClick()}
                 className="group px-6 py-3.5 rounded border border-white/[0.15] bg-white/[0.03] text-white font-mono text-xs tracking-widest uppercase hover:border-white/50 hover:bg-white/[0.08] transition-all duration-300 flex items-center gap-2 active:scale-95 interactive"

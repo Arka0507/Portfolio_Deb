@@ -20,6 +20,7 @@ export const PERSONAL_INFO = {
     github: "https://github.com/Arka0507",
     linkedin: "https://www.linkedin.com/in/arkadeb-das",
     email: "arkadeb.analyst@gmail.com",
+    phone: "+91 7477534182",
     resume: "/resume.pdf",
   },
   stats: [

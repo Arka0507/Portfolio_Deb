@@ -171,8 +171,8 @@ export default function ContactSection() {
 
             {/* Resume Download Card */}
             <a
-              href={PERSONAL_INFO.socials.resume}
-              download="Arka_Deb_Resume.pdf"
+              href="/resume.pdf"
+              download="Arkadeb_Das_Resume.pdf"
               onMouseEnter={() => sound.playHover()}
               onClick={() => sound.playClick()}
               className="p-5 rounded-lg glass-panel border border-white/10 hover:border-white/30 flex items-center justify-between group interactive"
