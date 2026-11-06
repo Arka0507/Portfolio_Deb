@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arka-deb.vercel.app/sitemap.xml
