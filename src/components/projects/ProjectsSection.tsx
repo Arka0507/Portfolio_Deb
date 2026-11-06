@@ -152,7 +152,7 @@ function ProjectCard({
       </div>
 
       {/* Card Actions Footer */}
-      <div className="p-6 pt-0 flex items-center justify-between border-t border-white/[0.06] mt-auto">
+      <div className="p-6 pt-0 flex flex-wrap items-center justify-between gap-2 border-t border-white/[0.06] mt-auto">
         <button
           onClick={() => {
             sound.playClick();
@@ -164,18 +164,34 @@ function ProjectCard({
           <span>INSPECT BLUEPRINT</span>
         </button>
 
-        <a
-          href={project.githubUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          onMouseEnter={() => sound.playHover()}
-          onClick={() => sound.playClick()}
-          className="flex items-center gap-1.5 px-3 py-1.5 rounded border border-white/15 bg-white/[0.02] text-xs font-mono text-white hover:border-accent-red hover:bg-accent-red/10 transition-colors interactive"
-        >
-          <Github className="w-3.5 h-3.5 text-secondary group-hover:text-accent-red" />
-          <span>CODE</span>
-          <ArrowUpRight className="w-3 h-3 text-secondary" />
-        </a>
+        <div className="flex items-center gap-2">
+          {project.demoUrl && (
+            <a
+              href={project.demoUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              onMouseEnter={() => sound.playHover()}
+              onClick={() => sound.playClick()}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded border border-accent-red/40 bg-accent-red/10 text-xs font-mono text-accent-red hover:bg-accent-red hover:text-white transition-all duration-200 interactive font-medium shadow-[0_0_12px_rgba(239,68,68,0.25)]"
+            >
+              <ExternalLink className="w-3.5 h-3.5" />
+              <span>LIVE DEMO</span>
+            </a>
+          )}
+
+          <a
+            href={project.githubUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            onMouseEnter={() => sound.playHover()}
+            onClick={() => sound.playClick()}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded border border-white/15 bg-white/[0.02] text-xs font-mono text-white hover:border-accent-red hover:bg-accent-red/10 transition-colors interactive"
+          >
+            <Github className="w-3.5 h-3.5 text-secondary group-hover:text-accent-red" />
+            <span>CODE</span>
+            <ArrowUpRight className="w-3 h-3 text-secondary" />
+          </a>
+        </div>
       </div>
     </motion.div>
   );
@@ -199,7 +215,7 @@ export default function ProjectsSection() {
             </h2>
           </div>
           <p className="font-mono text-xs sm:text-sm text-secondary max-w-md">
-            Engineered systems covering privacy-preserving federated AI, movie recommendation engines, real-time traffic computer vision, and comprehensive IPL sports analytics.
+            Engineered systems covering privacy-preserving federated AI, movie recommendation engines, real-time traffic computer vision, and interactive hospital emergency room analytics.
           </p>
         </div>
 

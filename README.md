@@ -40,7 +40,7 @@ Built with **Next.js 14**, **React**, **TypeScript**, **Tailwind CSS**, **Framer
    - *Federated AI Healthcare System* (BioBERT, FedAvg, PyTorch)
    - *CineVerse – Movie Recommendation Engine* (FastAPI, MovieLens 100K)
    - *TrafficVision AI* (YOLO, OpenCV, PyTorch, Multi-Object Tracking)
-   - *IPL Match Analytics & Performance Dashboard* (Excel, Python, Pandas, Sports Analytics)
+   - *Hospital Emergency Room Dashboard* (Interactive Clinical Analytics, Live: [arka0507.github.io/hospital-er-dashboard](https://arka0507.github.io/hospital-er-dashboard/))
 6. **Systems Matrix (`SkillsMatrixSection.tsx`)**: 6-layer capability matrix filterable by proficiency tier (*Project Experience*, *Working Knowledge*, *Familiar*).
 7. **Education & Certifications (`EducationSection.tsx`)**: Amity University B.Tech CSE (8.5 CGPA), NPTEL Cloud Computing, NPTEL Python for Data Science.
 8. **Contact Section (`ContactSection.tsx`)**: Interactive transmission terminal, one-click email copier, Kolkata IST live telemetry clock, and CV download.
