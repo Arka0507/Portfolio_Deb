@@ -188,3 +188,4 @@ export default function Hero3DCanvas() {
     </div>
   );
 }
+

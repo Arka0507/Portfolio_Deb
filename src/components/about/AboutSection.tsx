@@ -93,18 +93,19 @@ export default function AboutSection() {
             <div className="glass-panel p-6 rounded-lg border border-white/10 relative overflow-hidden">
               <div className="grid grid-cols-1 sm:grid-cols-12 gap-6 items-center">
                 {/* Profile Photo */}
-                <div className="sm:col-span-5 relative aspect-square rounded-md overflow-hidden border border-white/15 bg-black/40 group">
+                <div className="sm:col-span-5 relative aspect-[3/4] sm:aspect-square rounded-lg overflow-hidden border border-white/20 bg-black/40 group shadow-xl">
                   <Image
                     src="/images/arka-deb-profile.jpg"
                     alt="Arka Deb - Data Scientist and ML Developer"
                     fill
-                    className="object-cover grayscale contrast-125 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500"
-                    sizes="(max-width: 640px) 100vw, 240px"
+                    priority
+                    className="object-cover object-top brightness-105 contrast-105 group-hover:scale-105 transition-transform duration-500"
+                    sizes="(max-width: 640px) 100vw, 260px"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none" />
-                  <div className="absolute bottom-2 left-2 right-2 px-2 py-1 bg-black/70 backdrop-blur-sm rounded border border-white/10 flex items-center justify-between text-[10px] font-mono">
-                    <span className="text-accent-red">ARKA DEB</span>
-                    <span className="text-neutral-400">ID://DEV-0507</span>
+                  <div className="absolute bottom-2 left-2 right-2 px-2.5 py-1.5 bg-black/80 backdrop-blur-md rounded border border-white/15 flex items-center justify-between text-[10px] font-mono">
+                    <span className="text-white font-semibold">ARKA DEB</span>
+                    <span className="text-accent-red font-medium">ID://DEV-0507</span>
                   </div>
                 </div>
 
@@ -192,3 +193,4 @@ export default function AboutSection() {
     </section>
   );
 }
+

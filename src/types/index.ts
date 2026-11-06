@@ -63,3 +63,4 @@ export interface CertificationItem {
   skills: string[];
   status: "Verified" | "Completed";
 }
+

@@ -40,7 +40,7 @@ Built with **Next.js 14**, **React**, **TypeScript**, **Tailwind CSS**, **Framer
    - *Federated AI Healthcare System* (BioBERT, FedAvg, PyTorch)
    - *CineVerse – Movie Recommendation Engine* (FastAPI, MovieLens 100K)
    - *Hospital Emergency Room Dashboard* (Excel, Operational Analytics)
-   - *Self-Correcting Text-to-SQL + Semantic RAG* (PostgreSQL, LLM loopback - *Currently Building*)
+   - *IPL Match Analytics & Performance Dashboard* (Excel, Python, Pandas, Sports Analytics)
 6. **Systems Matrix (`SkillsMatrixSection.tsx`)**: 6-layer capability matrix filterable by proficiency tier (*Project Experience*, *Working Knowledge*, *Familiar*).
 7. **Education & Certifications (`EducationSection.tsx`)**: Amity University B.Tech CSE (8.5 CGPA), NPTEL Cloud Computing, NPTEL Python for Data Science.
 8. **Contact Section (`ContactSection.tsx`)**: Interactive transmission terminal, one-click email copier, Kolkata IST live telemetry clock, and CV download.
@@ -67,3 +67,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to explore
 1. Push this repository to GitHub: `https://github.com/Arka0507/portfolio`
 2. Connect your GitHub account to [Vercel](https://vercel.com).
 3. Import the project and click **Deploy**. Vercel will automatically detect Next.js and build the production bundle.
+
