@@ -19,7 +19,7 @@ export const PERSONAL_INFO = {
   socials: {
     github: "https://github.com/Arka0507",
     linkedin: "https://www.linkedin.com/in/arkadeb-das",
-    email: "arkadeb0507@gmail.com",
+    email: "arkadeb.analyst@gmail.com",
     resume: "/resume.pdf",
   },
   stats: [

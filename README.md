@@ -214,7 +214,7 @@ The application is pre-configured for one-click deployment on [Vercel](https://v
 
 **Arka Deb**
 - **Title**: Data Analyst | Data Scientist | Machine Learning Developer
-- **Email**: [arkadeb0507@gmail.com](mailto:arkadeb0507@gmail.com)
+- **Email**: [arkadeb.analyst@gmail.com](mailto:arkadeb.analyst@gmail.com)
 - **LinkedIn**: [linkedin.com/in/arkadeb-das](https://www.linkedin.com/in/arkadeb-das)
 - **GitHub**: [github.com/Arka0507](https://github.com/Arka0507)
 - **Location**: Greater Kolkata Area, India
